@@ -60,3 +60,11 @@ form fieldset legend {
     padding-left: .5rem;
   }
 }
+
+@media (max-width: 320px) {
+  .navbar-brand {
+    font-size: small;
+    font-weight: 700;
+    color: #444444 !important;
+  }
+}
