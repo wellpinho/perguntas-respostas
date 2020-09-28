@@ -45,6 +45,34 @@ form fieldset legend {
   font-weight: 100;
 }
 
+/* style page perguntas */
+.card {
+  margin: 1rem 0;
+}
+
+.card-header {
+  background-color: transparent;
+}
+
+.card-header h2 {
+  font-size: x-large;
+  color: #28a745;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.card-header small {
+  font-weight: 600;
+  color: #444444;
+}
+
+.card p {
+  padding: .5rem 0;
+  font-size: medium;
+  font-weight: 400;
+  color: #444444;
+}
+
 @media (max-width: 480px) {
   header h1 {
     font-size: 28px;
@@ -66,5 +94,11 @@ form fieldset legend {
     font-size: small;
     font-weight: 700;
     color: #444444 !important;
+  }
+
+  /* style page pergutnas */
+  .card-header h2 {
+    font-size: medium;
+    font-weight: 600;
   }
 }

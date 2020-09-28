@@ -3,7 +3,7 @@ const router = express.Router()
 
 const PerguntaController = require('./../controllers/PerguntaController')
 
-router.get('/perguntas', PerguntaController.index)
-router.post('/perguntas', PerguntaController.store)
+router.get('/pergunta', PerguntaController.index)
+router.post('/pergunta', PerguntaController.store)
 
 module.exports = router

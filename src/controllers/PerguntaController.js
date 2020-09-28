@@ -1,11 +1,14 @@
 const Pergunta = require('./../models/PerguntasModel')
 
 exports.index = async (req, res) => {
-  const perguntas = await Pergunta.findAll()
-
-  res.status(200).send({
-    pergunta: perguntas
-  })
+  await Pergunta.findAll({ order: [['id', 'DESC']]})
+    .then( list => {
+      if (list === null) {
+        res.status(201).redirect('/')
+      }else {
+        res.status(200).render('perguntas', { list: list})
+      }
+    })
 }
 
 exports.store = async (req, res) => {

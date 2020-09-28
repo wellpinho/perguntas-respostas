@@ -1,0 +1,19 @@
+<%- include('./parts/header') %>
+
+  <div class="row">
+    <% list.forEach( pergunta => { %>
+      <div class="col-md-12 card">
+        <div class="card-header">
+          <small>Perunta: <%= pergunta.id %></small> 
+          <h2><%= pergunta.titulo %></h2>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <p><%= pergunta.description %></p>
+          </li>
+        </ul>
+      </div>
+    <% }); %>
+  </div>
+
+<%- include('./parts/footer') %>

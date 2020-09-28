@@ -22,6 +22,10 @@ app.get('/', (req, res) => {
   res.status(200).render('index')
 })
 
+app.get('/perguntas', (req, res) => {
+  res.status(200).render('perguntas')
+})
+
 app.use(PerguntasRouter)
 
 const port = process.env.PORT || 8080
