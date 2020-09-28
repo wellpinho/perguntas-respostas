@@ -22,7 +22,15 @@ Procuro um bom emprego ou contrato de trabalho. Você pode entrar em contato com
 
 Se você considera meu projeto como algo útil, pode valorizar meu trabalho.
 
-<a href="https://pag.ae/7WrzSVKNN" target="_blank"><img src="https://pag.ae/7WrzSVKNN" alt="Obrigado pelo café" style="height: auto !important;width: auto !important;" ></a>
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+<form action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+<!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+<input type="hidden" name="currency" value="BRL" />
+<input type="hidden" name="receiverEmail" value="wellpinho@outlook.com" />
+<input type="hidden" name="iot" value="button" />
+<input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+</form>
+<!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 
 ## Software Requirements
 
@@ -57,16 +65,16 @@ você pode ver se o servidor funcionou olhando no terminal ou cmd ou outro de su
 ```bash
 Running on port http://localhost:8080
 
-a porta foi configurada para 8080 mas você pode mudar no index.js
-
 CTRL + C para para o processo.
 ```
-**Note:**  Veja se tem a mensagem: Conetado com sucesso! isso indica que esta conectado também ao banco de dados mysql
+a porta foi configurada para 8080 mas você pode mudar no index.js
+
+**Note:**  Veja se tem a mensagem: Conectado com sucesso! isso indica que esta conectado também ao banco de dados mysql
 
 confira se você criou o banco de dados conforme expecificado no arquivo database.js dentro da pasta utils
 
 ### Considerações finais
-Espero que este pequeno projeto ajdue iniciantes a criarem seus primeiros crud.
+Espero que este pequeno projeto ajude iniciantes a criarem seu primeiro crud.
 Lembrando que sempre devemos consultar a documentação dos pacotes segue os links:
 
 ## Express responsável pelas rotas
@@ -81,7 +89,7 @@ Lembrando que sempre devemos consultar a documentação dos pacotes segue os lin
 ## O body-parser faz exatamente o que precisamos agora. O body-parser é um módulo capaz de converter o body da requisição para vários formatos. Um desses formatos é json, exatamente o que queremos.
 [body-parser](https://www.npmjs.com/package/body-parser)
 
-## Também uso bastante o npm, lá tem o link para baixar os pacotes atualizados e tem também pequenos trechos explicando como usar ou configura o pacote
+## Também uso bastante o npm, lá tem o link para baixar os pacotes atualizados e tem também pequenos trechos explicando como usar ou configurar os pacotes
 [npm](https://www.npmjs.com/)
 
 ###### UM FORTE ABRAÇO E BONS ESTUDOS!!!
