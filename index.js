@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const database = require('./src/utils/database')
+const cors = require('cors')
 const app = express()
 
 const PerguntasRouter = require('./src/routes/PerguntaRoutes')
@@ -12,6 +13,7 @@ database.authenticate().then(() => {
   console.log('Erro ao conectar no banco de dados')
 })
 
+app.use(cors())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 

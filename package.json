@@ -4,7 +4,7 @@
   "description": "Sistema com NodeJS para perguntas e respostas com mysql",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon ./index.js",
+    "dev": "nodemon ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/wellpinho/perguntas-respostas#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mysql2": "^2.2.5",
