@@ -1,11 +1,27 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perguntas e respostas</title>
-</head>
-<body>
-  ola mundão
-</body>
-</html>
+<%- include('./parts/header') %>
+
+<div class="container">
+  <header class="text-center">
+    <h1>PERGUNTAS</h1>
+    <small>& Respostas</small>
+  </header>
+
+  <form action="/action_page.php">
+    <fieldset>
+      <legend>Faça uma pergunta:</legend>
+      <div class="form-group">
+        <label for="fname">First name:</label>
+        <input class="form-control" type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input class="form-control" type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label>
+        <input class="form-control" type="email" id="email" name="email"><br>
+        <label for="birthday">Birthday:</label>
+        <input class="form-control" type="date" id="birthday" name="birthday"><br>
+        <input class="btn btn-primary" type="submit" value="Submit">
+      </div>
+    </fieldset>
+  </form>
+</div>
+
+<%- include('./parts/header') %>

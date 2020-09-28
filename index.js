@@ -3,7 +3,9 @@ const bodyParser = require('body-parser')
 const app = express()
 
 app.use(bodyParser.urlencoded({}))
+
 app.set('view engine', 'ejs')
+app.use(express.static('public'))
 
 app.get('/', (req, res) => {
   res.status(200).render('index')

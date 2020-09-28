@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5f4;
+}
+
+header {
+  margin: 2rem;
+  border-bottom: 1px solid rgba(12, 12, 12, 0.11);
+  line-height: .1rem;
+  padding-bottom: 2rem;
+}
+
+header h1 {
+  color: #444444;
+  font-weight: 100;
+  letter-spacing: .2rem;
+}
+
+header small {
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: .8rem;
+}
+
+/* style form */
+form {
+  margin-top: 8rem;
+}
+
+form fieldset {
+  border: 1px solid rgba(12, 12, 12, 0.11);
+  padding: .7rem;
+  border-radius: .3rem;
+}
+
+form fieldset legend {
+  max-width: 20rem;
+  padding-left: 1.5rem;
+  color: #444444;
+  font-weight: 100;
+}
+
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 28px;
+  }
+
+  header small {
+    font-size: 14px;
+    letter-spacing: .5rem;
+    color: #444444;
+  }
+  form fieldset legend {
+    max-width: 100%;
+    padding-left: .5rem;
+  }
+}
