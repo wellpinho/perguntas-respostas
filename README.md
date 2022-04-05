@@ -1,28 +1,5 @@
 # Node, Express, Sequelize, body-parser, EJS, Cors
 
-Página home
-![alt text](./public/img/banner.jpg)
-
-Responsive
-![alt text](./public/img/responsive.jpg)
-
-Página de perguntas, com as postagens ordenadas
-![alt text](./public/img/page-perguntas.jpg)
-
-## Iniciando projeto
-
-
-Este projeto será executado em ** NodeJs ** usando ** Mysql ** como banco de dados. Eu tentei manter a estrutura do código fácil, pois qualquer iniciante também pode adotar o fluxo e começar a construir uma API. O projeto está aberto para sugestões, relatórios de bugs e solicitações de pull.
-
-## Estou aberto para Contrato de Trabalho
-
-Procuro um bom emprego ou contrato de trabalho. Você pode entrar em contato comigo diretamente no meu e-mail ([wellpinho@outlook.com] (mailto: wellpinho@outlook.com "wellpinho@outlook.com")) ou pode baixar meu currículo do meu site [https://wellpinho.com.br] pessoal (https://wellpinho.com.br/).
-
-## Aceito um café
-
-Se você considera meu projeto como algo útil, pode valorizar meu trabalho.
-[DOAR PELO PAGSEGURO](https://pag.ae/7WrzSVKNN)
-
 ## Software Requirements
 
 -   Node.js **12+**
